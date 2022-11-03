@@ -5,15 +5,15 @@
 
 (from highest priority to lowest)
 
-- [] Render SDL Objects
-- [] Logger
-- [] ECS Design and implementation
-- [] Asset Management
-- [] Animation system
-- [] Collission system
-- [] Extra components and systems
-- [] Production
-- [] Display tru type fonts
-- [] GUI
-- [] Scripting
-- [] Culling and Map control
+- [ ] Render SDL Objects
+- [ ] Logger
+- [ ] ECS Design and implementation
+- [ ] Asset Management
+- [ ] Animation system
+- [ ] Collission system
+- [ ] Extra components and systems
+- [ ] Production
+- [ ] Display tru type fonts
+- [ ] GUI
+- [ ] Scripting
+- [ ] Culling and Map control
