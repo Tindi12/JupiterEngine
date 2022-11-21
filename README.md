@@ -15,7 +15,7 @@
 - [ ] Collission system
 - [ ] Extra components and systems
 - [ ] Production
-- [ ] Display tru type fonts
+- [ ] Display true type fonts
 - [ ] GUI
 - [ ] Scripting
 - [ ] Culling and Map control
