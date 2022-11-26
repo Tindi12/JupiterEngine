@@ -6,7 +6,7 @@
 <b>Project Status:<b>
 
 - [ ] Render SDL Objects
-- [ ] Logger
+- [X] Logger
 - [ ] ECS Design and implementation
 - [ ] Asset Management
 - [ ] Animation system
