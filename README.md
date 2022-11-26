@@ -5,8 +5,6 @@
 
 <b>Project Status:<b>
 
-(from highest priority to lowest)
-
 - [ ] Render SDL Objects
 - [ ] Logger
 - [ ] ECS Design and implementation
