@@ -7,7 +7,7 @@
 
 - [ ] Render SDL Objects
 - [X] Logger
-- [ ] ECS Design and implementation
+- [X] ECS Design and implementation
 - [ ] Asset Management
 - [ ] Animation system
 - [ ] Collission system
