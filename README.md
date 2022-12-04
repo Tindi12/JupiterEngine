@@ -5,7 +5,7 @@
 
 <b>Project Status:<b>
 
-- [ ] Render SDL Objects
+- [X] Render SDL Objects
 - [X] Logger
 - [X] ECS Design and implementation
 - [ ] Asset Management
