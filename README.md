@@ -1,6 +1,6 @@
 # JupiterEngine
-2D game engine written in c++and built with SDL and Lua. With in built scripting, an ECS, and more...
-
+2D very simple game engine written in c++and built with SDL and Lua. With in built scripting, an ECS, and more...
+(built under guidance from a course)
 ---------------------------------------------------------------------------------------------------------------------------
 
 <b>Project Status:<b>
