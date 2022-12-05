@@ -426,6 +426,12 @@
     <None Include="libopus-0.dll" />
     <None Include="libogg-0.dll" />
     <None Include="libmodplug-1.dll" />
+    <None Include="x64\Debug\JupiterEngine.exe.recipe" />
+    <None Include="x64\Debug\vc143.pdb" />
+    <None Include="x64\Debug\vc143.idb" />
+    <None Include="assets\scripts\Level1.lua" />
+    <None Include="assets\scripts\Level2.lua" />
+    <None Include="assets\tilemaps\desert.map" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Main.cpp">
@@ -456,6 +462,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\ECS\ECS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_impl_sdl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AssetStore\AssetStore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\LevelLoader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -1237,6 +1252,99 @@
     <ClInclude Include="src\ECS\ECS.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Components\RigidBodyComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imgui_impl_sdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AssetStore\AssetStore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\TextLabelComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\SpriteComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\ScriptComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\ProjectileComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\ProjectileEmitterComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\KeyboardControlledComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\HealthComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\CameraFollowComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\BoxColliderComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\AnimationComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EventBus\Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EventBus\EventBus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\CollisionEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\KeyPressedEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\LevelLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\AnimationSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\CameraMovementSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\CollisionSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\DamageSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\KeyboardControlSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\ProjectileEmitSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\ProjectileLifecycleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\RenderColliderSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\RenderGUISystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\RenderHealthBarSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\RenderSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\RenderTextSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\ScriptSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="assets\tilemaps\jungle.png">
@@ -1302,6 +1410,213 @@
     <Image Include="assets\images\truck-ford-up.png">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="assets\images\army-cannon-down.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\army-cannon-killed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\army-cannon-left.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\army-cannon-right.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\army-cannon-up.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\army-gun-down.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\army-gun-left.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\army-gun-right.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\army-gun-up.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\army-walk-down.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\army-walk-killed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\army-walk-left.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\army-walk-right.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\army-walk-up.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\bf109-spritesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\bomber.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\boat.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\bomber-spritesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\carrier.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\chopper-green-spritesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\chopper-white-spritesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\f22.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\f22-spritesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\fw190.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\fw190-spritesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\obstacles-1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\obstacles-2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\obstacles-3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\obstacles-4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\obstacles-5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\obstacles-7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\obstacles-6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\radar-spritesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\runway.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\sam-tank-left.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\sam-tank-left-spritesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\sam-tank-right-spritesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\sam-truck-right.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\su27.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\su27-spritesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tank-panther-killed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tank-tiger-spritesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-19.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tree-20.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\truck-ford-spritesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\upf7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\upf7-spritesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\tilemaps\desert.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\tilemaps\jungle-night.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tank-panther-spritesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\tank-tiger-killed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Media Include="assets\sounds\helicopter.wav">
@@ -1314,5 +1629,23 @@
   </ItemGroup>
   <ItemGroup>
     <Library Include="libs\lua\liblua54.a" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="x64\Debug\ECS.obj" />
+    <Object Include="x64\Debug\Game.obj" />
+    <Object Include="x64\Debug\glm.obj" />
+    <Object Include="x64\Debug\imgui.obj" />
+    <Object Include="x64\Debug\imgui_demo.obj" />
+    <Object Include="x64\Debug\imgui_draw.obj" />
+    <Object Include="x64\Debug\imgui_sdl.obj" />
+    <Object Include="x64\Debug\imgui_widgets.obj" />
+    <Object Include="x64\Debug\Logger.obj" />
+    <Object Include="x64\Debug\Main.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="x64\Debug\JupiterEngine.log" />
+    <Text Include="x64\Debug\JupiterEngine.vcxproj.FileListAbsolute.txt" />
+    <Text Include="x64\Debug\JupiterEngine.Build.CppClean.log" />
+    <Text Include="x64\Debug\vcpkg.applocal.log" />
   </ItemGroup>
 </Project>

@@ -1,9 +1,9 @@
 #include "imgui_sdl.h"
 
-#if defined(WIN32) || defined(_WIN32) || defined(__WIN32)
-#include <SDL.h>
+#if defined(WIN32) || defined(WIN64) || defined(_WIN32) || defined(_WIN64)
+ #include <SDL.h>
 #else
-#include <SDL2/SDL.h>
+ #include <SDL2/SDL.h>
 #endif
 
 #include "imgui.h"
