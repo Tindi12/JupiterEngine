@@ -19,10 +19,10 @@
 - [X] Culling and Map control
   
   LOGGER IN ACTION:
-![Logger](https://github.com/Tindi12/JupiterEngine/blob/master/JupiterEngine/assets/images/loggerpic.png))
+![Logger](https://github.com/Tindi12/JupiterEngine/blob/master/JupiterEngine/assets/images/loggerpic.png)
   
   TANK SHOOTER GAME BUILT UPON ENGINE
-![Logger](https://github.com/Tindi12/JupiterEngine/blob/master/JupiterEngine/assets/images/gamepic.png))  
+![Logger](https://github.com/Tindi12/JupiterEngine/blob/master/JupiterEngine/assets/images/gamepic.png)
   
 <h5>*Built under guidance from a course*</h5>
 <h6>I will probaby cringe at this so hard later on</h6>
