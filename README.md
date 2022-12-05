@@ -16,4 +16,4 @@
 - [X] GUI
 - [X] Scripting
 - [X] Culling and Map control
-<h5>Built under guidance from a course</h5>
+<h5>*Built under guidance from a course*</h5>
