@@ -8,12 +8,12 @@
 - [X] Render SDL Objects
 - [X] Logger
 - [X] ECS Design and implementation
-- [ ] Asset Management
-- [ ] Animation system
-- [ ] Collission system
-- [ ] Extra components and systems
-- [ ] Production
-- [ ] Display true type fonts
-- [ ] GUI
-- [ ] Scripting
-- [ ] Culling and Map control
+- [X] Asset Management
+- [X] Animation system
+- [X] Collission system
+- [X] Extra components and systems
+- [X] Production
+- [X] Display true type fonts
+- [X] GUI
+- [X] Scripting
+- [X] Culling and Map control
