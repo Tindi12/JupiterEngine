@@ -1617,6 +1617,15 @@
     <Image Include="assets\images\tank-tiger-killed.png">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="..\..\..\Downloads\Screenshot (1).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\gamepic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\images\loggerpic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Media Include="assets\sounds\helicopter.wav">

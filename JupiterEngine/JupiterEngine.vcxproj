@@ -597,6 +597,7 @@
     <ClInclude Include="src\Systems\ScriptSystem.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\Downloads\Screenshot (1).png" />
     <Image Include="assets\images\army-cannon-down.png" />
     <Image Include="assets\images\army-cannon-killed.png" />
     <Image Include="assets\images\army-cannon-left.png" />
@@ -625,7 +626,9 @@
     <Image Include="assets\images\f22.png" />
     <Image Include="assets\images\fw190-spritesheet.png" />
     <Image Include="assets\images\fw190.png" />
+    <Image Include="assets\images\gamepic.png" />
     <Image Include="assets\images\landing-base.png" />
+    <Image Include="assets\images\loggerpic.png" />
     <Image Include="assets\images\obstacles-1.png" />
     <Image Include="assets\images\obstacles-2.png" />
     <Image Include="assets\images\obstacles-3.png" />
