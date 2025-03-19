@@ -25,6 +25,5 @@
 ![Logger](https://github.com/Tindi12/JupiterEngine/blob/master/JupiterEngine/assets/images/gamepic.png)
   
 <h5>*Built under guidance from a course*</h5>
-<h6>I will probaby cringe at this so hard later on</h6>
 <h6>Thanks to @gustavopezzi for all the help</h6>
   <h3>@Griptape Challenge fall 2022<h3>
